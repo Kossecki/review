@@ -90,6 +90,19 @@ caption {
   font-family: 'Open Sans';
 }
 
+.main-banner {
+  background-image: url("pictures/Minerva.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 14rem;
+}
+
+@media only screen and (min-width: 600px) {
+  .main-banner {
+    height: 16rem;
+  }
+}
 .container {
   margin: 0 auto;
   max-width: 960px;
@@ -98,8 +111,15 @@ caption {
 .headline {
   font-family: 'Open Sans', Arial, sans-serif;
   position: relative;
-  padding: 1rem 0rem 4rem 0.5rem;
   color: white;
+  background-color: rgb(153, 100, 1);
+  padding: 1rem 3rem 3rem 1rem;
+}
+
+@media only screen and (min-width: 600px) {
+    .headline {
+      background-color: transparent;
+  }
 }
 
 .headline p {
@@ -126,27 +146,4 @@ caption {
   padding: .3rem;
   color: black;
   margin-bottom: 4rem;
-}
-
-.main-banner {
-  background-image: url("pictures/Minerva.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 14rem;
-}
-
-@media only screen and (max-width: 660px) {
-  .headline {
-    background-color: rgb(153, 100, 1);
-  }
-}
-
-@media only screen and (min-width: 600px) {
-  .main-banner {
-    height: 16rem;
-  }
-  .headline {
-    padding: 1rem 3rem 3rem 1rem;
-  }
 }
