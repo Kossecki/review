@@ -97,7 +97,6 @@ caption {
   background-size: cover;
   height: 14rem;
 }
-
 @media only screen and (min-width: 600px) {
   .main-banner {
     height: 16rem;
@@ -110,26 +109,32 @@ caption {
 
 .headline {
   font-family: 'Open Sans', Arial, sans-serif;
-  position: relative;
   color: white;
   background-color: rgb(153, 100, 1);
   padding: 1rem 3rem 3rem 1rem;
 }
 
 @media only screen and (min-width: 600px) {
-    .headline {
-      background-color: transparent;
+  .headline {
+    background-color: transparent;
   }
 }
 
-.headline p {
+.headline-label {
+  background-color: lightgreen;
+  padding: .3rem;
+  color: black;
+  display: inline-block;
+}
+
+.headline-text {
   text-transform: uppercase;
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: inherit;
   font-size: 1.3rem;
   line-height: 1;
 }
 
-.headline p span {
+.headline-emphasis {
   color: lightgreen;
   font-size: 1.6rem;
 }
@@ -139,11 +144,4 @@ caption {
   background-color: lightgreen;
   line-height: 2rem;
   padding: 0.2rem 0.2rem;
-}
-
-.review span {
-  background-color: lightgreen;
-  padding: .3rem;
-  color: black;
-  margin-bottom: 4rem;
 }
