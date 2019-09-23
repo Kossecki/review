@@ -1,16 +1,16 @@
-*,
-*::before,
+*, 
+*::before, 
 *::after {
   box-sizing: inherit;
 }
 
 html {
   font-size: 16px;
-   box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-  font-family: 'Merriweather', 'Open Sans'; 
+  font-family: 'Merriweather', 'Open Sans';
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
@@ -29,10 +29,12 @@ ul {
   font-size: 0.8rem;
   line-height: 1.7;
 }
-p{
+
+p {
   margin-bottom: 2rem;
 }
-li{
+
+li {
   padding-bottom: 0.5rem;
 }
 
@@ -50,13 +52,13 @@ footer {
   padding: 0.5rem;
 }
 
-footer p,
-footer a{
+footer p, 
+footer a {
   background-color: lightgreen;
   font-size: 0.7rem;
 }
 
-footer a{
+footer a {
   font-family: 'Open Sans', Arial, sans-serif;
   font-size: 0.7rem;
 }
@@ -67,25 +69,24 @@ a {
   background-color: lightgreen;
 }
 
-
 table {
   border: 1px solid grey;
   margin: 0.7rem 2rem 3rem 2rem;
   font-size: 0.8rem;
 }
-  
+
 caption {
   background-color: lightgreen;
 }
-  
+
 caption,
-th,
+th, 
 td {
   padding: 0.5rem;
 }
-  
-th,
-caption{
+
+th, 
+caption {
   font-family: 'Open Sans';
 }
 
@@ -97,11 +98,11 @@ caption{
 .headline {
   font-family: 'Open Sans', Arial, sans-serif;
   position: relative;
-  padding:1rem 0rem 4rem 0.5rem;
+  padding: 1rem 0rem 4rem 0.5rem;
   color: white;
 }
 
-.headline p{
+.headline p {
   text-transform: uppercase;
   font-family: 'Open Sans', Arial, sans-serif;
   font-size: 1.3rem;
@@ -112,22 +113,21 @@ caption{
   color: lightgreen;
   font-size: 1.6rem;
 }
- 
 
 .sub-heading {
-font-weight: 600;
-background-color:lightgreen;
-line-height: 2rem;
-padding: 0.2rem 0.2rem;
+  font-weight: 600;
+  background-color: lightgreen;
+  line-height: 2rem;
+  padding: 0.2rem 0.2rem;
 }
 
 .review span {
- background-color:lightgreen;
- padding: .3rem;
- color: black;
- margin-bottom: 4rem;
+  background-color: lightgreen;
+  padding: .3rem;
+  color: black;
+  margin-bottom: 4rem;
 }
- 
+
 .main-banner {
   background-image: url("pictures/Minerva.jpg");
   background-repeat: no-repeat;
@@ -138,16 +138,15 @@ padding: 0.2rem 0.2rem;
 
 @media only screen and (max-width: 660px) {
   .headline {
-  background-color: rgb(153, 100,1);
+    background-color: rgb(153, 100, 1);
   }
 }
 
 @media only screen and (min-width: 600px) {
   .main-banner {
-  height: 16rem;
+    height: 16rem;
   }
-
   .headline {
-  padding: 1rem 3rem 3rem 1rem;
+    padding: 1rem 3rem 3rem 1rem;
   }
 }
