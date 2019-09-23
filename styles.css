@@ -1,0 +1,153 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 16px;
+   box-sizing: border-box;
+}
+
+body {
+  font-family: 'Merriweather', 'Open Sans'; 
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+h1 {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+p,
+ul {
+  font-family: 'Merriweather', Georgia, serif;
+  font-size: 0.8rem;
+  line-height: 1.7;
+}
+p{
+  margin-bottom: 2rem;
+}
+li{
+  padding-bottom: 0.5rem;
+}
+
+h2 {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 2rem;
+  line-height: 1;
+  color: rgb(219, 143, 0);
+  margin-top: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  background-color: lightgreen;
+  padding: 0.5rem;
+}
+
+footer p,
+footer a{
+  background-color: lightgreen;
+  font-size: 0.7rem;
+}
+
+footer a{
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 0.7rem;
+}
+
+a {
+  letter-spacing: 0.125rem;
+  color: black;
+  background-color: lightgreen;
+}
+
+
+table {
+  border: 1px solid grey;
+  margin: 0.7rem 2rem 3rem 2rem;
+  font-size: 0.8rem;
+}
+  
+caption {
+  background-color: lightgreen;
+}
+  
+caption,
+th,
+td {
+  padding: 0.5rem;
+}
+  
+th,
+caption{
+  font-family: 'Open Sans';
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.headline {
+  font-family: 'Open Sans', Arial, sans-serif;
+  position: relative;
+  padding:1rem 0rem 4rem 0.5rem;
+  color: white;
+}
+
+.headline p{
+  text-transform: uppercase;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 1.3rem;
+  line-height: 1;
+}
+
+.headline p span {
+  color: lightgreen;
+  font-size: 1.6rem;
+}
+ 
+
+.sub-heading {
+font-weight: 600;
+background-color:lightgreen;
+line-height: 2rem;
+padding: 0.2rem 0.2rem;
+}
+
+.review span {
+ background-color:lightgreen;
+ padding: .3rem;
+ color: black;
+ margin-bottom: 4rem;
+}
+ 
+.main-banner {
+  background-image: url("pictures/Minerva.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 14rem;
+}
+
+@media only screen and (max-width: 660px) {
+  .headline {
+  background-color: rgb(153, 100,1);
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .main-banner {
+  height: 16rem;
+  }
+
+  .headline {
+  padding: 1rem 3rem 3rem 1rem;
+  }
+}
